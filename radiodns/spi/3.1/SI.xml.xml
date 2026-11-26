@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceInformation xmlns="http://www.etsi.org/radioepg/spi"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xml:lang="es"
+                    creationTime="2026-11-26T10:00:00-04:00"
+                    version="1">
+  <serviceProvider>
+    <shortName>La X</shortName>
+    <mediumName>La X 102.1</mediumName>
+    <longName>La X102.1 FM</longName>
+    <shortDescription>La X 102, tu alternativa. </shortDescription>
+  </serviceProvider>
+
+  <services>
+    <service>
+      <shortName>La X</shortName>
+      <mediumName>La X 102.1</mediumName>
+      <longName>La X102.1 FM Santo Domingo</longName>
+      <shortDescription>La X102.1 FM - Santo Domingo</shortDescription>
+      <mediaDescription>
+        <multimedia url="https://spi.lax102.fm/logos/logo_32x32.png"
+                    mimeValue="image/png"
+                    width="32"
+                    height="32"/>
+        <multimedia url="https://spi.lax102.fm/logos/logo_112x32.png"
+                    mimeValue="image/png"
+                    width="112"
+                    height="32"/>
+        <multimedia url="https://spi.lax102.fm/logos/logo_128x128.png"
+                    mimeValue="image/png"
+                    width="128"
+                    height="128"/>
+        <multimedia url="https://spi.lax102.fm/logos/logo_320x240.png"
+                    mimeValue="image/png"
+                    width="320"
+                    height="240"/>
+        <multimedia url="https://spi.lax102.fm/logos/logo_600x600.png"
+                    mimeValue="image/png"
+                    width="600"
+                    height="600"/>
+      </mediaDescription>
+      <bearer id="fm:A3:bfc4:10210"/>
+      <link uri="https://www.lax102.fm"/>
+    </service>
+  </services>
+</serviceInformation>
